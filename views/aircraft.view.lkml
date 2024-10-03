@@ -18,6 +18,7 @@ view: aircraft {
 
   dimension: address2 {
     type: string
+    hidden: yes
     sql: ${TABLE}.address2 ;;
   }
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
