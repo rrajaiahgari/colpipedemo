@@ -13,6 +13,7 @@ view: aircraft {
 
   dimension: address1 {
     type: string
+    hidden: yes
     sql: ${TABLE}.address1 ;;
   }
 
